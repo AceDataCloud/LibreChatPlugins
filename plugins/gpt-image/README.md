@@ -2,9 +2,11 @@
 
 Independent native Agent Plugin for GPT Image image tools. Provided by **Ace Data Cloud**, not the GPT Image publisher or LibreChat maintainers.
 
-[English installation and illustrated account setup](../../README.md) · [中文图文安装](../../readme/README_zh_Hans.md)
+[English illustrated guide](../../README.md) · [中文图文安装](../../readme/README_zh_Hans.md)
 
-Install **only this service** with `python scripts/install.py gpt-image --plugin-dir /path/to/LibreChat/plugin` from a reviewed checkout of this repository. The plugin loads its own Skill and hosted OAuth MCP at LibreChat startup; no YAML editing or embedded API key is needed for this route. Restart the instance, then find `gpt-image-by-acedatacloud` in MCP tools or the service Skill by its name/description. This is an operator-installed package, not an entry in a global LibreChat marketplace.
+The release ZIP includes both guides and their screenshots locally; these source links are rewritten to local package paths during packing.
+
+Download `gpt-image-by-acedatacloud-0.1.0.zip` from [release v0.1.0](https://github.com/AceDataCloud/LibreChatPlugins/releases/tag/v0.1.0), verify it against `SHA256SUMS`, and extract the single `gpt-image-by-acedatacloud` directory into the administrator-controlled LibreChat `plugin/` directory. Do not overwrite an existing directory; review upgrades separately. In a reviewed full source checkout, the alternative installer is `python3 scripts/install.py gpt-image --plugin-dir /path/to/LibreChat/plugin`. The plugin loads its own Skill and hosted OAuth MCP at LibreChat startup; no YAML editing or embedded API key is needed for this route. Restart the instance, then find `gpt-image-by-acedatacloud` in MCP tools or the service Skill by its name/description. This is an operator-installed package, not an entry in a global LibreChat marketplace.
 
 Endpoint: `https://openai.mcp.acedata.cloud/mcp`. Existing implementation: https://github.com/AceDataCloud/OpenAIMCP (mcp-openai-pro); this package does not copy the worker or billing rules.
 

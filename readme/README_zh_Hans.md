@@ -4,7 +4,7 @@ Suno、Seedance、HappyHorse、GPT Image、Nano Banana 分别提供一个原生 
 
 ## 1. 选择并安装一个服务
 
-官方安装机制见 [Agent Plugins](https://www.librechat.ai/docs/features/agent_plugins)。目前这是管理员文件系统安装机制，**不是全球官方商店**。当前源码 [PR #1](https://github.com/AceDataCloud/LibreChatPlugins/pull/1) 待审阅，尚未发正式版本。先取得 `codex/native-services-20261018` 分支的 checkout，再运行：
+官方安装机制见 [Agent Plugins](https://www.librechat.ai/docs/features/agent_plugins)。目前这是管理员文件系统安装机制，**不是全球官方商店**。在 [v0.1.0 发布页](https://github.com/AceDataCloud/LibreChatPlugins/releases/tag/v0.1.0) 下载选择服务的 ZIP，按 `SHA256SUMS` 核验后，把其中唯一的服务目录解压到管理员控制的 LibreChat `plugin/` 目录。每包附带许可证、中英图文和隐私说明；不要覆盖现有插件或数据目录。也可取得 `v0.1.0` 完整源码 checkout 后运行：
 
 ```bash
 python3 scripts/install.py suno --plugin-dir /path/to/LibreChat/plugin

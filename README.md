@@ -16,10 +16,12 @@ The [official LibreChat Agent Plugins guide](https://www.librechat.ai/docs/featu
 | [GPT Image by Ace Data Cloud](plugins/gpt-image) | `gpt-image-by-acedatacloud` | [OpenAIMCP](https://github.com/AceDataCloud/OpenAIMCP) |
 | [Nano Banana by Ace Data Cloud](plugins/nano-banana) | `nano-banana-by-acedatacloud` | [NanoBananaMCP](https://github.com/AceDataCloud/NanoBananaMCP) |
 
-Source PR [#1](https://github.com/AceDataCloud/LibreChatPlugins/pull/1) is pending review; the commands select that review branch, not a published release. From this checkout, install **one** package to the LibreChat filesystem:
+Download one service ZIP from [release v0.1.0](https://github.com/AceDataCloud/LibreChatPlugins/releases/tag/v0.1.0). Verify its hash with `SHA256SUMS`, then extract its single service directory into the administrator-controlled LibreChat `plugin/` directory. Each ZIP includes its own license, English/Chinese guides, privacy note and screenshots. Preserve existing plugin/data directories; do not overwrite an existing installation.
+
+Alternatively, use this versioned full source checkout to install **one** package:
 
 ```bash
-git clone --branch codex/native-services-20261018 --single-branch https://github.com/AceDataCloud/LibreChatPlugins.git
+git clone --branch v0.1.0 --single-branch https://github.com/AceDataCloud/LibreChatPlugins.git
 cd LibreChatPlugins
 python3 scripts/install.py suno --plugin-dir /path/to/LibreChat/plugin
 ```

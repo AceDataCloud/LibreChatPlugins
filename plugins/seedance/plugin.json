@@ -8,7 +8,7 @@
     "email": "dev@acedata.cloud",
     "url": "https://acedata.cloud"
   },
-  "homepage": "https://github.com/AceDataCloud/LibreChatPlugins/tree/codex/native-services-20261018/plugins/seedance",
+  "homepage": "https://github.com/AceDataCloud/LibreChatPlugins/tree/v0.1.0/plugins/seedance",
   "repository": "https://github.com/AceDataCloud/LibreChatPlugins",
   "license": "MIT",
   "keywords": [

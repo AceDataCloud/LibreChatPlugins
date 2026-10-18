@@ -1,8 +1,9 @@
 """Install a selected reviewed package without overwriting an existing installation."""
 import argparse
 import json
-import shutil
 from pathlib import Path
+
+from pack import package_contents
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -12,14 +13,18 @@ def install(service, target):
     valid = {item["slug"] for item in catalog}
     if service not in valid:
         raise ValueError("Unknown service")
-    source = ROOT / "plugins" / service
-    manifest = json.loads((source / "plugin.json").read_text())
+    selected = next(item for item in catalog if item["slug"] == service)
+    manifest, contents = package_contents(selected, ROOT)
     target = Path(target).expanduser()
     target.mkdir(parents=True, exist_ok=True)
     dest = target / manifest["name"]
     if dest.exists():
         raise FileExistsError("Plugin already exists; review and replace it manually, preserving plugin data")
-    shutil.copytree(source, dest)
+    dest.mkdir()
+    for relative, data in contents.items():
+        path = dest / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(data)
     return dest
 
 
