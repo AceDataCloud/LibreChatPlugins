@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/LibreChat-AI/LibreChat",
+  "commit": "e081b566a42d3a83b8102157bd7806cf4ff63b17",
+  "files": {
+    "manifest.ts": "c9674719c7288575cede58e3d82d3f5c003988e263de5f3ad5fb36abd0b1eb9a",
+    "mcp.ts": "92c8608ce12c1062749d21268258f12734601be466da508923cdfbccbe661b0c",
+    "paths.ts": "77093956c3c043732d6534365150ace04453d294ebb7c78ecb1da444719107fc",
+    "constants.ts": "aa1d0eb4dcbb6ade372235a31bd68a0c680c69a59f02acde8e0ec104798037c8"
+  },
+  "purpose": "Pinned unmodified upstream native parser used for offline package validation. Type-only imports erase at transpile; MCP_PLUGIN_SOURCE is supplied as the existing runtime constant value. No host runtime simulated."
+}

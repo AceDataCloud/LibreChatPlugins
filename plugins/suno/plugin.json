@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "suno-by-acedatacloud",
+  "version": "0.1.0",
+  "description": "Suno by Ace Data Cloud \u2014 music generation and existing-task retrieval in LibreChat.",
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud",
+    "url": "https://acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/LibreChatPlugins/tree/v0.1.0/plugins/suno",
+  "repository": "https://github.com/AceDataCloud/LibreChatPlugins",
+  "license": "MIT",
+  "keywords": [
+    "suno",
+    "music",
+    "audio",
+    "librechat",
+    "acedatacloud"
+  ]
+}

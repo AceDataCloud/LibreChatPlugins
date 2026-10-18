@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "get-api-key-en.png",
+      "type": "real_screenshot",
+      "source": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/get-api-key-en.png",
+      "limit": "Ace Console real screenshot with redacted key; original capture date not established here"
+    },
+    {
+      "file": "create-api-key-en.png",
+      "type": "real_screenshot",
+      "source": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/create-api-key-en.png",
+      "limit": "Ace Console real screenshot; not LibreChat authorization proof"
+    },
+    {
+      "file": "librechat-suno-token-preview.png",
+      "type": "official_screenshot_edit",
+      "source": "https://www.librechat.ai/docs/configuration/librechat_yaml/object_structure/mcp_servers",
+      "date": "2026-10-17 edit",
+      "limit": "Personal MCP token dialog preview only; not chat-model credential dialog, not OAuth consent, not real execution."
+    },
+    {
+      "file": "librechat-mcp-settings-official.png",
+      "type": "official_doc",
+      "source": "https://www.librechat.ai/images/mcp/mcp_ui_settings_panel.png",
+      "official_page_url": "https://www.librechat.ai/docs/features/mcp",
+      "date": "2026-10-18 downloaded",
+      "limit": "Image visibly shows LibreChat v0.8.2 and another sample server, not Ace. Original capture date unspecified."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gpt-image-by-acedatacloud",
+  "version": "0.1.0",
+  "description": "GPT Image by Ace Data Cloud \u2014 image generation and existing-task retrieval in LibreChat.",
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud",
+    "url": "https://acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/LibreChatPlugins/tree/v0.1.0/plugins/gpt-image",
+  "repository": "https://github.com/AceDataCloud/LibreChatPlugins",
+  "license": "MIT",
+  "keywords": [
+    "gpt image",
+    "gpt-image",
+    "image generation",
+    "image editing",
+    "librechat",
+    "acedatacloud"
+  ]
+}
