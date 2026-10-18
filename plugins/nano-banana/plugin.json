@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "nano-banana-by-acedatacloud",
+  "version": "0.1.0",
+  "description": "Nano Banana by Ace Data Cloud \u2014 image generation and existing-task retrieval in LibreChat.",
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud",
+    "url": "https://acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/LibreChatPlugins/tree/main/plugins/nano-banana",
+  "repository": "https://github.com/AceDataCloud/LibreChatPlugins",
+  "license": "MIT",
+  "keywords": [
+    "nano banana",
+    "nanobanana",
+    "image generation",
+    "librechat",
+    "acedatacloud"
+  ]
+}

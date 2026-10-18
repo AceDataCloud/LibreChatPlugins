@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "suno",
+    "name": "Suno",
+    "host": "suno",
+    "task": "suno_get_task",
+    "generate": "suno_generate_music",
+    "repo": "SunoMCP",
+    "package": "mcp-suno",
+    "category": "music",
+    "terms": [
+      "suno",
+      "music",
+      "audio"
+    ]
+  },
+  {
+    "slug": "seedance",
+    "name": "Seedance",
+    "host": "seedance",
+    "task": "seedance_get_task",
+    "generate": "seedance_generate_video",
+    "repo": "SeedanceMCP",
+    "package": "mcp-seedance",
+    "category": "video",
+    "terms": [
+      "seedance",
+      "video",
+      "image-to-video"
+    ]
+  },
+  {
+    "slug": "happyhorse",
+    "name": "HappyHorse",
+    "host": "happyhorse",
+    "task": "happyhorse_get_task",
+    "generate": "happyhorse_generate_video",
+    "repo": "HappyHorseMCP",
+    "package": "mcp-happyhorse",
+    "category": "video",
+    "terms": [
+      "happyhorse",
+      "happy horse",
+      "video"
+    ]
+  },
+  {
+    "slug": "gpt-image",
+    "name": "GPT Image",
+    "host": "openai",
+    "task": "openai_get_task",
+    "generate": "openai_generate_image",
+    "repo": "OpenAIMCP",
+    "package": "mcp-openai-pro",
+    "category": "image",
+    "terms": [
+      "gpt image",
+      "gpt-image",
+      "image generation",
+      "image editing"
+    ]
+  },
+  {
+    "slug": "nano-banana",
+    "name": "Nano Banana",
+    "host": "nanobanana",
+    "task": "nanobanana_get_task",
+    "generate": "nanobanana_generate_image",
+    "repo": "NanoBananaMCP",
+    "package": "mcp-nanobanana-pro",
+    "category": "image",
+    "terms": [
+      "nano banana",
+      "nanobanana",
+      "image generation"
+    ]
+  }
+]
