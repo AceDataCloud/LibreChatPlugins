@@ -4,7 +4,7 @@ Suno、Seedance、HappyHorse、GPT Image、Nano Banana 分别提供一个原生 
 
 ## 1. 选择并安装一个服务
 
-官方安装机制见 [Agent Plugins](https://www.librechat.ai/docs/features/agent_plugins)。目前这是管理员文件系统安装机制，**不是全球官方商店**。在已审查的本仓 checkout 中运行：
+官方安装机制见 [Agent Plugins](https://www.librechat.ai/docs/features/agent_plugins)。目前这是管理员文件系统安装机制，**不是全球官方商店**。当前源码 [PR #1](https://github.com/AceDataCloud/LibreChatPlugins/pull/1) 待审阅，尚未发正式版本。先取得 `codex/native-services-20261018` 分支的 checkout，再运行：
 
 ```bash
 python3 scripts/install.py suno --plugin-dir /path/to/LibreChat/plugin
@@ -25,6 +25,10 @@ python3 scripts/install.py suno --plugin-dir /path/to/LibreChat/plugin
 以上是真实 Ace 控制台截图，密钥已遮挡；沿用 [固定来源](../assets/tutorial/source.json)，不是 LibreChat 调用截图。免费试用额度以账户显示为准，不保证赠送。
 
 ## 3. 在 LibreChat 授权
+
+![官方 LibreChat MCP 设置原图](../assets/tutorial/librechat-mcp-settings-official.png)
+
+官方产品截图显示 LibreChat v0.8.2 与其他示例服务，只说明设置位置，不证明 Ace 已安装或最新版本外观。
 
 **原生插件 OAuth 路线：** 用户打开 **+ → MCP Servers** 或 **MCP Settings**，选择安装的服务并连接，在同一浏览器会话完成 Ace 登录授权。插件里只有 HTTPS 地址，不带共享 Key；实际登录仍需在指定版本验证。
 

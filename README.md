@@ -16,10 +16,10 @@ The [official LibreChat Agent Plugins guide](https://www.librechat.ai/docs/featu
 | [GPT Image by Ace Data Cloud](plugins/gpt-image) | `gpt-image-by-acedatacloud` | [OpenAIMCP](https://github.com/AceDataCloud/OpenAIMCP) |
 | [Nano Banana by Ace Data Cloud](plugins/nano-banana) | `nano-banana-by-acedatacloud` | [NanoBananaMCP](https://github.com/AceDataCloud/NanoBananaMCP) |
 
-From a reviewed checkout of this repository, install **one** package to the LibreChat filesystem:
+Source PR [#1](https://github.com/AceDataCloud/LibreChatPlugins/pull/1) is pending review; the commands select that review branch, not a published release. From this checkout, install **one** package to the LibreChat filesystem:
 
 ```bash
-git clone https://github.com/AceDataCloud/LibreChatPlugins.git
+git clone --branch codex/native-services-20261018 --single-branch https://github.com/AceDataCloud/LibreChatPlugins.git
 cd LibreChatPlugins
 python3 scripts/install.py suno --plugin-dir /path/to/LibreChat/plugin
 ```
@@ -41,6 +41,10 @@ To copy a key, use the application card. To create a separately revocable LibreC
 These real Ace Console screenshots are reused from the Dify onboarding guide, pinned in [image sources](assets/tutorial/source.json). Keys are redacted. Account trial credit is whatever your current account displays; installation does not include a credit grant.
 
 ## 3. Connect the service inside LibreChat
+
+![Official LibreChat MCP settings reference](assets/tutorial/librechat-mcp-settings-official.png)
+
+Official product screenshot from the [MCP documentation](https://www.librechat.ai/docs/features/mcp), showing LibreChat v0.8.2 and a different sample server. It shows the settings/connection location, not an Ace install or the current host version.
 
 **Native plugin route (OAuth):** Open the installed service's MCP entry in the chat input's **+ → MCP Servers** menu or **MCP Settings**, then choose its connection/sign-in action. Complete the Ace account login/consent in the same browser session. The plugin contains only its HTTPS URL; the host manages each user's OAuth connection. DCR registers the client; it is not a user API token. Actual sign-in and service calls must still be validated on the selected LibreChat version.
 
