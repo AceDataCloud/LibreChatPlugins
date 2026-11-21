@@ -1,6 +1,6 @@
 # Ace Data Cloud service plugins for LibreChat
 
-Five independently installable native **Agent Plugins 1.0.0**: **Suno**, **Seedance**, **HappyHorse**, **GPT Image**, and **Nano Banana**, each provided by **Ace Data Cloud**. Each package adds its own searchable Skill and hosted MCP connection using the existing Ace service implementation. These are independent integrations, not official plugins from the service brands or LibreChat maintainers.
+Independently installable native **Agent Plugins 1.0.0**: **ACE Music**, **Suno**, **Seedance**, **HappyHorse**, **GPT Image**, and **Nano Banana**, each provided by **Ace Data Cloud**. Each package adds its own searchable Skill and hosted MCP connection using the existing Ace service implementation. These are independent integrations, not official plugins from the service brands or LibreChat maintainers.
 
 [中文图文教程](readme/README_zh_Hans.md) · [Current API prices](https://platform.acedata.cloud/models?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_readme_pricing)
 
@@ -10,13 +10,16 @@ The [official LibreChat Agent Plugins guide](https://www.librechat.ai/docs/featu
 
 | Service | Independent package | Existing MCP source |
 | --- | --- | --- |
+| [ACE Music by Ace Data Cloud](plugins/acemusic) | `acemusic-by-acedatacloud` | [AceMusicMCP](https://github.com/AceDataCloud/AceMusicMCP) |
 | [Suno by Ace Data Cloud](plugins/suno) | `suno-by-acedatacloud` | [SunoMCP](https://github.com/AceDataCloud/SunoMCP) |
 | [Seedance by Ace Data Cloud](plugins/seedance) | `seedance-by-acedatacloud` | [SeedanceMCP](https://github.com/AceDataCloud/SeedanceMCP) |
 | [HappyHorse by Ace Data Cloud](plugins/happyhorse) | `happyhorse-by-acedatacloud` | [HappyHorseMCP](https://github.com/AceDataCloud/HappyHorseMCP) |
 | [GPT Image by Ace Data Cloud](plugins/gpt-image) | `gpt-image-by-acedatacloud` | [OpenAIMCP](https://github.com/AceDataCloud/OpenAIMCP) |
 | [Nano Banana by Ace Data Cloud](plugins/nano-banana) | `nano-banana-by-acedatacloud` | [NanoBananaMCP](https://github.com/AceDataCloud/NanoBananaMCP) |
 
-Download one service ZIP from [release v0.1.0](https://github.com/AceDataCloud/LibreChatPlugins/releases/tag/v0.1.0). Verify its hash with `SHA256SUMS`, then extract its single service directory into the administrator-controlled LibreChat `plugin/` directory. Each ZIP includes its own license, English/Chinese guides, privacy note and screenshots. Preserve existing plugin/data directories; do not overwrite an existing installation.
+ACE Music is available from the source checkout using `python3 scripts/install.py acemusic --plugin-dir /path/to/LibreChat/plugin`.
+
+For the five previously released packages, download one service ZIP from [release v0.1.0](https://github.com/AceDataCloud/LibreChatPlugins/releases/tag/v0.1.0). Verify its hash with `SHA256SUMS`, then extract its single service directory into the administrator-controlled LibreChat `plugin/` directory. Each ZIP includes its own license, English/Chinese guides, privacy note and screenshots. Preserve existing plugin/data directories; do not overwrite an existing installation.
 
 Alternatively, use this versioned full source checkout to install **one** package:
 

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "acemusic-by-acedatacloud",
+  "version": "0.1.0",
+  "description": "Create ACE Music songs and lyrics, upload audio, cover one track, blend two and retrieve the original task in LibreChat.",
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud",
+    "url": "https://acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/LibreChatPlugins/tree/main/plugins/acemusic",
+  "repository": "https://github.com/AceDataCloud/LibreChatPlugins",
+  "license": "MIT",
+  "keywords": [
+    "acemusic",
+    "music",
+    "lyrics",
+    "librechat",
+    "acedatacloud"
+  ]
+}

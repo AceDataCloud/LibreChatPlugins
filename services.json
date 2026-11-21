@@ -74,5 +74,22 @@
       "nanobanana",
       "image generation"
     ]
+  },
+  {
+    "slug": "acemusic",
+    "name": "ACE Music",
+    "host": "acemusic",
+    "task": "acemusic_get_task",
+    "generate": "acemusic_generate_music",
+    "repo": "AceMusicMCP",
+    "package": "mcp-acemusic",
+    "category": "music",
+    "terms": [
+      "acemusic",
+      "ace-music",
+      "music",
+      "lyrics",
+      "audio"
+    ]
   }
 ]

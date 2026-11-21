@@ -18,7 +18,7 @@ class PackageTests(unittest.TestCase):
     def test_every_archive_is_single_service_and_self_contained(self):
         with tempfile.TemporaryDirectory() as temporary:
             archives = packer.build_packages(temporary)
-            self.assertEqual(len(archives), 5)
+            self.assertEqual(len(archives), len(json.loads((ROOT / "services.json").read_text())))
             for archive in archives:
                 with self.subTest(archive=archive.name), zipfile.ZipFile(archive) as bundle:
                     names = set(bundle.namelist())
