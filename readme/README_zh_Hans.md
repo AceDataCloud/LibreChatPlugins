@@ -1,5 +1,7 @@
 # LibreChat：Ace Data Cloud 单服务插件图文上手
 
+ACE Music 源码包位于 [plugins/acemusic](../plugins/acemusic)。在包含该目录的仓库版本运行 `python3 scripts/install.py acemusic --plugin-dir /path/to/LibreChat/plugin`，重启实例后通过 ACE Music MCP 登录自己的账户。
+
 Suno、Seedance、HappyHorse、GPT Image、Nano Banana 分别提供一个原生 Agent Plugin，品牌名在前、明确标注由 Ace Data Cloud 提供。不是第三方服务商或 LibreChat 官方出品。主源码复用已有 MCP，不复制生成/计费逻辑。
 
 ## 1. 选择并安装一个服务

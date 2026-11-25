@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "acemusic-by-acedatacloud": {
+      "type": "streamable-http",
+      "url": "https://acemusic.mcp.acedata.cloud/mcp"
+    }
+  }
+}
