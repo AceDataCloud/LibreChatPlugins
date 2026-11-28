@@ -16,7 +16,7 @@ python3 scripts/install.py suno --plugin-dir /path/to/LibreChat/plugin
 
 ## 2. 注册、登录并获取正确 Key
 
-打开 [Ace Applications](https://platform.acedata.cloud/console/applications?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_zh_api_key)，注册或登录。找到 **General application**；没有时点击 **Initialize General Application**。检查服务权限、[当前价格](https://platform.acedata.cloud/models?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_zh_pricing)与余额。
+打开 [Ace Applications](https://platform.acedata.cloud/console/applications?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_zh_api_key)，注册或登录。找到 **General application**。检查服务权限、[当前价格](https://platform.acedata.cloud/models?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_zh_pricing)与余额。
 
 在应用卡片复制现有 API Key，或 **Keys / Manage Keys → Create** 为 LibreChat 创建独立 Key。按需设置过期、额度与 Allowed APIs；异步流程需包含生成和任务查询 API。
 

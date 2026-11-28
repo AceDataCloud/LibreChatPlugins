@@ -35,7 +35,7 @@ This requires a LibreChat version implementing [Agent Plugins](https://www.libre
 
 ## 2. Register/sign in and check service access
 
-Open [Ace Data Cloud → Applications](https://platform.acedata.cloud/console/applications?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_readme_api_key). Register or sign in. Find **General application**; if absent, choose **Initialize General Application**. Review the selected service, current prices and balance. A General key accesses services your account is entitled to use; a service-specific key is limited to that service.
+Open [Ace Data Cloud → Applications](https://platform.acedata.cloud/console/applications?utm_source=librechat&utm_medium=referral&utm_campaign=evergreen&utm_content=plugins_readme_api_key). Register or sign in. Find **General application**. Review the selected service, current prices and balance. A General key accesses services your account is entitled to use; a service-specific key is limited to that service.
 
 To copy a key, use the application card. To create a separately revocable LibreChat key, use **Keys / Manage Keys → Create**. Check expiration, usage limit and allowed APIs, including both generation and task lookup for an asynchronous service.
 
